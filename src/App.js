@@ -5,6 +5,7 @@ import Home from './component/home/Home';
 import Header from './component/header/header';
 import Footer from './component/footer/footer';
 import MovieDetail from './component/MovieDetail/MovieDetail';
+import NoPageFound from './component/NoPageFound/NoPageFound';
 
 
 
@@ -17,7 +18,8 @@ function App() {
 
           <Routes>
             <Route path='/' element={<Home />} />
-          <Route path='movies/:imdbID' element={<MovieDetail />} />          
+          <Route path='movies/:imdbID' element={<MovieDetail />} />  
+          <Route path="*" element={<NoPageFound />}  />      
           </Routes>
         </div>
         <Footer />
