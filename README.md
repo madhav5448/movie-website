@@ -50,7 +50,7 @@ Once you have installed the dependencies, you can run the project by following t
 
 ## In the project directory, create a virtual environment.
 
--Activate the virtual environment.
+- Activate the virtual environment.
 
 - Install the project dependencies. (npm install)
 - Run the development server.(npm start)
