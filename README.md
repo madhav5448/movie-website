@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+       ## Movie Website Project:-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple movie website that allows users to search for movies and view details of each movie.
+The website is built using the following technologies:
 
-## Available Scripts
+ReactJS: A JavaScript library for building user interfaces
+React Router: A library for routing between different pages in a React application
+HTML: The markup language used to create web pages
+CSS: The style sheet language used to control the appearance of web pages
+JavaScript: A programming language used to add interactivity to web pages
+Redux: A state management library for React
+The website is divided into two main parts: the frontend and the backend. The frontend is responsible for displaying the data to the user, while the backend is not implemented in this project.
 
-In the project directory, you can run:
+The frontend is implemented using ReactJS, React Router, HTML, and CSS. Redux is used to manage the state of the application.
 
-### `npm start`
+To run the project, you will need to install the following dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Node.js
+npm
+Once you have installed the dependencies, you can run the project by following these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In the project directory, create a virtual environment.
+Activate the virtual environment.
+Install the project dependencies.
+Run the development server.
+The project will be available at http://localhost:3000.
 
-### `npm test`
+## Here are some features of the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users can search for movies by title, genre, or release year.
+Users can view details of each movie, including the title, release date, genre, rating, and cast.
 
-### `npm run build`
+The project is still under development, but it is functional and can be used to learn about web development with ReactJS and Redux.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To-do list :-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add more features, such as the ability to rate movies, leave comments, and create a watchlist.
+Improve the user interface.
+User can watch trailor and add to the favorites list
+Make the project more secure.
+Add backend to run in own api
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Here are some additional details about how to use the OMDB API in a React component:
 
-### `npm run eject`
+The OMDB API requires an API key. You can get an API key from the OMDB website.
+The OMDB API returns JSON data. You can use the axios library to fetch JSON data from an API.
+The useEffect hook is used to fetch the movie details when the component mounts.
+The useState hook is used to store the movie details in the component state.
+The movie variable is used to access the movie details in the component.
+The movieDetail component can be used to display the movie details on the page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to use Redux
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Redux is a state management library for React. It allows you to store and manage the state of your application in a centralized location. This makes your code more predictable and easier to test.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To use Redux, you will need to create a store. The store is responsible for holding the state of your application. You can then create reducers to update the state of the store.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contribute
 
-## Learn More
+If you would like to contribute to the project, please feel free to fork the repository and submit pull requests.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or suggestions, please feel free to contact me at madhav5448@gmail.com
