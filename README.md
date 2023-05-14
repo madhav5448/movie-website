@@ -1,4 +1,4 @@
-       ## Movie Website Project:-
+## Movie Website Project:-
 
 This project is a simple movie website that allows users to search for movies and view details of each movie.
 The website is built using the following technologies:
