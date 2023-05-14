@@ -1,28 +1,49 @@
 ## Movie Website Project:-
 
 This project is a simple movie website that allows users to search for movies and view details of each movie.
-The website is built using the following technologies:
 
-ReactJS: A JavaScript library for building user interfaces
-React Router: A library for routing between different pages in a React application
-HTML: The markup language used to create web pages
-CSS: The style sheet language used to control the appearance of web pages
-JavaScript: A programming language used to add interactivity to web pages
-Redux: A state management library for React
+### The website is built using the following technologies:
+
+## ReactJS:
+
+A JavaScript library for building user interfaces
+
+## React Router:
+
+A library for routing between different pages in a React application
+
+## HTML:
+
+The markup language used to create web pages
+
+## CSS:
+
+The style sheet language used to control the appearance of web pages
+
+## JavaScript:
+
+A programming language used to add interactivity to web pages
+
+## Redux-toolkit:
+
+A state management library for React
+
 The website is divided into two main parts: the frontend and the backend. The frontend is responsible for displaying the data to the user, while the backend is not implemented in this project.
 
-The frontend is implemented using ReactJS, React Router, HTML, and CSS. Redux is used to manage the state of the application.
+The frontend is implemented using ReactJS, React Router, HTML, and CSS. Redux-toolkit is used to manage the state of the application.
 
-To run the project, you will need to install the following dependencies:
+## To run the project, you will need to install the following dependencies:
 
 Node.js
 npm
+
 Once you have installed the dependencies, you can run the project by following these steps:
 
-In the project directory, create a virtual environment.
+## In the project directory, create a virtual environment.
+
 Activate the virtual environment.
-Install the project dependencies.
-Run the development server.
+Install the project dependencies. (npm install)
+Run the development server.(npm start)
 The project will be available at http://localhost:3000.
 
 ## Here are some features of the project:
@@ -30,7 +51,7 @@ The project will be available at http://localhost:3000.
 Users can search for movies by title, genre, or release year.
 Users can view details of each movie, including the title, release date, genre, rating, and cast.
 
-The project is still under development, but it is functional and can be used to learn about web development with ReactJS and Redux.
+The project is still under development, but it is functional and can be used to learn about web development with ReactJS and Redux-toolkit.
 
 ## To-do list :-
 
@@ -38,7 +59,7 @@ Add more features, such as the ability to rate movies, leave comments, and creat
 Improve the user interface.
 User can watch trailor and add to the favorites list
 Make the project more secure.
-Add backend to run in own api
+Beckend implementation
 
 ## Here are some additional details about how to use the OMDB API in a React component:
 
